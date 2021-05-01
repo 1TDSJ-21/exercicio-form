@@ -1,0 +1,20 @@
+.menu ul li {
+    float: right;
+    display: inline;
+    font-size: 24px;
+    margin-left: 24px;
+    margin-top: 12px;
+    
+}
+
+.container{
+    max-width: 1128px;
+}
+
+.cabecalho{
+    float: right;
+}
+.logo {
+    position: relative;
+    
+}
