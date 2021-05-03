@@ -24,7 +24,7 @@
  <img src="./img/banner-form-1.jpg" alt="Nossa logo" class="logo">
     <section class="conteudo">
         <div class="box">
-            <div>
+            <div class="dado">
                 <fieldset>
                     <legend>Dados pessoais</legend>
                     <table>
@@ -70,18 +70,18 @@
                         <label for="idComputacao">Engenharia</label>
                         <input type="checkbox" name="Historia" id="idHistoria">
                         <label for="idComputacao">Historia</label> <br>
-
-
                         <label for="idCuriculo">Mini-curriculo: </label> 
-                        <textarea name="cv" id="idCuriculo" cols="30" rows="10" class="test"></textarea> 
+                        <textarea name="cv" id="idCuriculo" cols="30" rows="10"></textarea> <br>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
                     </form>
                 </fieldset><br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
+                
+                
                 
             </div>
             <br>
-            <div class="exercicio2">
+            <div class="dadosPagamento">
                 <fieldset>
                     <h1><b>Método de pagamento</b></h1>
 
@@ -140,18 +140,20 @@
         <div class="ultimoForm">
         <div class="esquerdo">
             <form action="#">
-                <label for="idLogin">Login</label><br><br>
-                <label for="idSenha">Senha</label> <br><br>
-                <label for="idStatus">Status</label> <br><br>
-             
-                <label for="idTipo">Tipo</label> <br><br>
-                <label for="idDataa">Data Criação</label> <br><br>
-                <label for="idPerfil">Perfil</label> <br><br>
-                <label for="idObs">Observações</label> <br><br>
-                <label for="idModule">Módulos</label> <br><br>
+                <h4>Login</h4>
+                <h4>Senha</h4>
+                <h4>Status</h4>
+                <h4>Tipo</h4>
+                <h4>Data Criação</h4>
+                <h4>Perfil</h4> <br> <br> <br> 
+                <h4>Observações</h4> <br> <br> <br>
+                <h4>Módulos</h4> <br><br>
+               
+                
             </form>
         </div>
         <div class="direita">
+            <form action="#" method="GET">
             <input type="text" id="idLogin"> <br><br>
             <input type="text" id="idSenha"><br><br>
             
@@ -167,23 +169,29 @@
             <br><br>
             <input type="datetime-local" id="idDataa"> <br><br>
             <input type="radio" id="idTipo">
-            <label for="idTipo">convidado</label>
-            <input type="radio" id="idTipo">
-            <label for="idTipo">Administrador</label>
-
-
-
-            <input type="text" id="idPerfil"> <br><br>
-            <input type="text" id="idObs"> <br><br>
-            <input type="text" id="idModule"> <br><br>
-
+            <label for="idDataa">convidado</label>
+            <input type="radio" id="idTipo"> 
+            <label for="idDataa">Administrador</label> <br> <br>
+            <textarea class="textoarea" name="obs" id="idObs" cols="30" rows="10"></textarea> <br><br>
+            <input type="checkbox" id="idMod">
+            <label for="">compras</label>
+            <input type="checkbox" id="idMod">
+            <label for="">Biblioteca</label>
+            <input type="checkbox" id="idMod">
+            <label for="">Acadêmico</label> <br><br>
+            <input type="checkbox" id="idMod">
+            <label for="">Documentação</label>
+            <input type="checkbox" id="idMod">
+            <label for="">Recursos Humanos</label> <br><br><br>
         </div>
+        <input type="submit" value="cadastrar">
+        <input type="reset" value="Excluir"> 
+       </form>
 </div>
-
+<br>
     </section>
-
     <footer class="rodape">
-        <p></p>
+        <p>2021.Design Responsivo. <small>Criado por: <a href="https://www.linkedin.com/in/jonathan-f%C3%A9lix-12a9881a0/">Jonathan Felix</a></small></p>
 
     </footer>
     </div>
