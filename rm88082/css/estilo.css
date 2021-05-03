@@ -7,8 +7,13 @@
     
 }
 
+.validation{
+    margin-left: 140px;
+}
+
 .container{
     max-width: 1128px;
+    margin-left: 20px;
 }
 
 .cabecalho{
@@ -16,5 +21,40 @@
 }
 .logo {
     position: relative;
+    
+}
+.titulo{
+    float: right;
+}
+
+ .infopagamento{
+     float: left;
+ } 
+
+
+.exercicio2{
+    max-height: 500px;
+    max-width: 500px;
+}
+.pagamentoinfo{
+    float: left;
+}
+.ex3 h3{
+    background-color: #ffa500;
+}
+
+.esquerdo{
+    float: left;
+  
+}
+.direita{
+    float: right;
+    margin-right: 150px;
+}
+.ultimoForm{
+    max-height: 500px;
+    max-width: 500px;
+}
+.geral{
     
 }

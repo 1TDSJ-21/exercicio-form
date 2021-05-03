@@ -11,7 +11,6 @@
     <div class="container">
 
     <header class="cabecalho">
-        <img src="./img/banner-form-1.jpg" alt="Nossa logo" class="logo">
         <nav class="menu">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -20,9 +19,9 @@
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-
+   
     </header>
-
+ <img src="./img/banner-form-1.jpg" alt="Nossa logo" class="logo">
     <section class="conteudo">
         <div class="box">
             <div>
@@ -33,24 +32,153 @@
                         <label for="idNome">Nome:</label>
                         <input id="idNome" type="text" name="nome"> <br>
                         <label for="idEndereco">Endereço:</label>
-                        <input id="idEndereco"type="text" name="endereco">
-                        </form>
-
+                        <input id="idEndereco"type="text" name="endereco"><br>
+                        <label for="idCidade">Cidade: </label>
+                        <input id="idCidade" type="text" name="cidade"><br>
+                        <label for="idEstado">Estado</label>
+                        <select name="estado" id="idEstado">
+                        <option value="SP">São Paulo</option>
+                        </select>
+                    </form>
                     </table>
-
                 </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Dados profissionais</legend>
+                    
+                    <form name="dadosProfissionais" action="#" method="GET">
+                        <p>Natureza do cargo</p>
+                        <input type="radio" name="gerencia" id="idGerencia">
+                        <label for="idGerencia">Gerência</label>
+                        <input type="radio" name="financeiro" id="idFinanceiro">
+                        <label for="idFinanceiro">Fincanceiro</label>
+                        <input type="radio" name="recepcao" id="idRecepcao">
+                        <label for="idFinanceiro">Recepção</label>
+                        <input type="radio" name="adm" id="idAdministrativo">
+                        <label for="idFinanceiro">Administrativo</label>
+                        <input type="radio" name="juridico" id="idJuridico">
+                        <label for="idFinanceiro">juridico</label><br><br>
 
+                        <p>Área de interesse</p>
+                        <input type="checkbox" name="Computacao" id="idComputacao">
+                        <label for="idComputacao">Computação</label>
+                        <input type="checkbox" name="Biologia" id="idBiologia">
+                        <label for="idComputacao">Biologia</label>
+                        <input type="checkbox" name="MeioAmbiente" id="idMeio">
+                        <label for="idComputacao">Meio Ambiente</label>
+                        <input type="checkbox" name="Engenharia" id="idEngenharia">
+                        <label for="idComputacao">Engenharia</label>
+                        <input type="checkbox" name="Historia" id="idHistoria">
+                        <label for="idComputacao">Historia</label> <br>
+
+
+                        <label for="idCuriculo">Mini-curriculo: </label> 
+                        <textarea name="cv" id="idCuriculo" cols="30" rows="10" class="test"></textarea> 
+                    </form>
+                </fieldset><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
                 
             </div>
+            <br>
+            <div class="exercicio2">
+                <fieldset>
+                    <h1><b>Método de pagamento</b></h1>
 
-            <div>
+                    <h5>Campos obrigatórios são seguidos por *</h5>
 
+                    <h1><b>Informações de Contato</b></h1>
+                    <div class="titulo">
+                        <form class="pagamento" name="Pagamento" action="#" method="GET">
+                            <fieldset>
+                                <legend>Título</legend>
+                                    <input type="radio" name="as" id="idAs" required> 
+                                    <label for="idAs">Ás</label> <br>
+
+                                    <input type="radio" name="rei" id="idRei" required> 
+                                    <label for="idRei">Rei</label> <br>
+
+                                    <input type="radio" name="rainha" id="idRainha" required>
+                                    <label for="idRainha">Rainha</label>
+                            </fieldset>
+                            <br>
+            
+                            <label for="idName">Nome:*</label> 
+                            <input type="text" id="idName" required><br><br>
+                            <label for="idEmail">E-mail:*</label>
+                            <input type="text" id="idEmail" required><br><br>
+                            <label for="idSenha">Senha:*</label>
+                            <input type="password" id="idSenha" required> <br><br>
+                    </div> 
+
+                        <div class="infopagamento">
+                            <h1><b>Informações de Pagamento</b></h1>
+
+                            <label for="idCartao">Tipo de Cartão:</label>
+                            <select name="cartao" id="idCartao">
+                            <option value="visa">visa</option>
+                            </select> <br> <br> 
+                            <label for="idNumeroCartao">Número do Cartão: *</label>
+                            <input type="text" id="idNumeroCartao" name="numeroCartao" required> <br> <br>
+        
+                            <label for="">Data de <br>Expiração: *</label>
+                            <input type="date" id="idData" required> <br> <br>
+                            <input class="validation" type="button" value="Validar o Pagamento"></div>
+                </fieldset>  
+            </form>  
             </div>
 
-            <div>
 
-            </div>
+
         </div>
+        <br><br><br><br><br><br><br>
+        <div class="ex3">
+            <h3>SISTEMA DE GESTÂO ACADÊMICA</h3>
+            
+        </div>
+        <h3>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h3>
+        <div class="ultimoForm">
+        <div class="esquerdo">
+            <form action="#">
+                <label for="idLogin">Login</label><br><br>
+                <label for="idSenha">Senha</label> <br><br>
+                <label for="idStatus">Status</label> <br><br>
+             
+                <label for="idTipo">Tipo</label> <br><br>
+                <label for="idDataa">Data Criação</label> <br><br>
+                <label for="idPerfil">Perfil</label> <br><br>
+                <label for="idObs">Observações</label> <br><br>
+                <label for="idModule">Módulos</label> <br><br>
+            </form>
+        </div>
+        <div class="direita">
+            <input type="text" id="idLogin"> <br><br>
+            <input type="text" id="idSenha"><br><br>
+            
+            <select name="status" id="idStatus">
+                <option value="Inativo">Inativo</option>
+            </select> <br><br>
+            <input type="radio" id="idTipo">
+            <label for="idTipo">Técnico</label>
+            <input type="radio" id="idTipo">
+            <label for="idTipo">Professor</label>
+            <input type="radio" id="idTipo">
+            <label for="idTipo">Aluno</label>
+            <br><br>
+            <input type="datetime-local" id="idDataa"> <br><br>
+            <input type="radio" id="idTipo">
+            <label for="idTipo">convidado</label>
+            <input type="radio" id="idTipo">
+            <label for="idTipo">Administrador</label>
+
+
+
+            <input type="text" id="idPerfil"> <br><br>
+            <input type="text" id="idObs"> <br><br>
+            <input type="text" id="idModule"> <br><br>
+
+        </div>
+</div>
 
     </section>
 
@@ -58,6 +186,7 @@
         <p></p>
 
     </footer>
+    </div>
 </div>
     
 </body>
