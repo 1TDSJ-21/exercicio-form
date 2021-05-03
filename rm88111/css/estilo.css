@@ -1,0 +1,47 @@
+#container {
+    margin: 0 auto;
+    width: 800px; 
+    background-image: linear-gradient(to right, #E6F3FF, #c6cfd6);     
+    
+}
+
+
+.logo img {
+    width: 500px;
+    height: 300px; 
+    padding-left: 150px;
+}
+.dados-pessoais {       
+    /*bordas do formulário */
+    padding: 1em;
+    width: 400px;
+    margin-left: 20px;
+    font-weight: bold;    
+}
+/*DADOS PESSOAIS*/
+.dados-pessoais  input {
+    margin-top: 10px;        
+}
+.dados-pessoais  select {
+    margin-top: 10px;
+}
+.dados-pessoais  label {
+    padding: 12px 12px;
+}
+/*DADOS PROFISSIONAIS*/
+.dados-profissionais {
+    padding: 1em;
+    width: 550px;
+    margin-left: 20px;     
+
+}
+.dados-profissionais legend{
+    font-weight: bold;
+}
+.dados-profissionais p{
+    font-weight: bold;
+}
+
+
+
+

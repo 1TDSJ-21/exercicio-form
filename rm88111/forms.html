@@ -11,15 +11,71 @@
         <!--CABEÇALHO-->
         <header>
             <div class="cabecalho">
-                <img src="img/fiap.png" alt="FIAP LOGO">
-
-
+                <div class="logo">
+                    <img src="img/banner-form-1.png" alt="FIAP LOGO">
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Notícias</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
+
  
         <!--CONTEÚDO-->
         <section>
             <div class="conteudo">
+                <div class="box">
+                    <div class="dados-pessoais">
+                        <fieldset>
+                            <legend>Dados pessoais</legend>
+                                <table>
+                                    <form action="#" name="Dados" method="GET">
+                                        <label for="id-Nome">Nome: </label>
+                                        <input id="id-Nome" type="text" name="Nome"><br>
+
+                                        <label for="id-Endereco">Endereço:</label>
+                                        <input id="id-Endereco"type="text" name="Endereço"><br>
+
+                                        <label for="id-Cidade">Cidade: </label>
+                                        <input id="id-Cidade" type="text" name="Cidade"><br>
+                                        
+                                        <label for="id-Estado">Estado: </label>
+                                        <select name="Estado" id="id-Estado">                                        
+                                            <option value="SP">São Paulo</option>
+                                            <option value="RJ">Rio de Janeiro</option>
+                                            <option value="SC">Santa Catarina</option>
+                                    </form>
+                                </table>
+                            </fieldset>
+                    </div>
+                    <div class="dados-profissionais">
+                        <fieldset>
+                            <table>
+                                <legend>Dados Profissionais</legend>
+                                <form name="Dados-Profissionais" action="#" method="GET">
+                                    <p>Natureza do Cargo</p>                                
+                                    <input type="radio" name="Gerência" id="idGerência">
+                                    <label for="id-Gerencia">Gerência</label>
+                                    <input type="radio" name="Financeiro" id="idFinanceiro">
+                                    <label for="id-Financeiro">Fincanceiro</label>
+                                    <input type="radio" name="Recepção" id="idRecepcao">
+                                    <label for="id-Recepção">Recepção</label>
+                                    <input type="radio" name="adm" id="idAdministrativo">
+                                    <label for="id-Administrativo">Administrativo</label>
+                                    <input type="radio" name="juridico" id="idJuridico">
+                                    <label for="id-Juridico">Jurídico</label>
+                                </form>
+                            </table>
+                        </fieldset>
+                    </div>
+                    <div></div>
+                </div>
+
 
 
             </div>
@@ -28,6 +84,8 @@
         <!--RODAPÉ-->
         <footer>
             <div class="rodape">
+                <footer class="rodape">
+                    <p>2021.Design Responsivo. <small>Criado por: <a href="#">Matheus Bellini</a></small>
 
 
             </div>
