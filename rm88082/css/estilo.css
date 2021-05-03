@@ -1,0 +1,83 @@
+.menu ul li {
+    float: right;
+    display: inline;
+    font-size: 24px;
+    margin-left: 24px;
+    margin-top: 12px;
+    text-transform: none;
+    
+}
+.dado{
+    max-width: 610px;
+
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.validation{
+    margin-left: 140px;
+}
+
+.container{
+    max-width: 1128px;
+    margin-left: 20px;
+}
+
+.cabecalho{
+    float: right;
+}
+.logo {
+    position: relative;
+    max-width: 1128px;
+    
+}
+.titulo{
+    float: right;
+}
+
+ .infopagamento{
+     float: left;
+ } 
+
+
+.dadosPagamento{
+    max-height: 500px;
+    max-width: 500px;
+}
+.pagamentoinfo{
+    float: left;
+}
+.ex3 h3{
+    background-color: #ffa500;
+}
+
+.esquerdo{
+    float: left;
+  
+}
+.direita{
+    float: right;
+    margin-right: 80px;
+    margin-top: 22px;
+}
+.ultimoForm{
+    max-height: 500px;
+    max-width: 500px;
+}
+.textoarea{
+
+}
+
+.rodape{
+    margin-top: 50px;
+
+}
