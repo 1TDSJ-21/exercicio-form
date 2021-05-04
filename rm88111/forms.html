@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div id="container">
+        <!--CABEÇALHO-->
+        <header>
+            <div class="cabecalho">
+                <div class="logo">
+                    <img src="img/banner-form-1.png" alt="FIAP LOGO">
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Notícias</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+ 
+        <!--CONTEÚDO-->
+        <section>
+            <div class="conteudo">
+                <div class="box">
+                    <div class="dados-pessoais">
+                        <fieldset>
+                            <legend>Dados pessoais</legend>
+                                <table>
+                                    <form action="#" name="Dados" method="GET">
+                                        <label for="id-Nome">Nome: </label>
+                                        <input id="id-Nome" type="text" name="Nome"><br>
+
+                                        <label for="id-Endereco">Endereço:</label>
+                                        <input id="id-Endereco"type="text" name="Endereço"><br>
+
+                                        <label for="id-Cidade">Cidade: </label>
+                                        <input id="id-Cidade" type="text" name="Cidade"><br>
+
+                                        <label for="id-Estado">Estado: </label>
+                                        <select name="Estado" id="id-Estado">                                        
+                                            <option value="SP">São Paulo</option>
+                                            <option value="RJ">Rio de Janeiro</option>
+                                            <option value="SC">Santa Catarina</option>
+                                    </form>
+                                </table>
+                            </fieldset>
+                    </div>
+                    <div class="dados-profissionais">
+                        <fieldset>
+                            <table>
+                                <legend>Dados Profissionais</legend>
+                                <form name="Dados-Profissionais" action="#" method="GET">
+                                    <p>Natureza do Cargo</p>
+
+                                    <input type="radio" name="Gerência" id="id-Gerencia">
+                                    <label for="id-Gerencia">Gerência</label>
+
+                                    <input type="radio" name="Financeiro" id="id-Financeiro">
+                                    <label for="id-Financeiro">Fincanceiro</label>
+
+                                    <input type="radio" name="Recepção" id="id-Recepcao">
+                                    <label for="id-Recepcao">Recepção</label>
+
+                                    <input type="radio" name="Administrativo" id="id-Administrativo">
+                                    <label for="id-Administrativo">Administrativo</label>
+
+                                    <input type="radio" name="Juridico" id="id-Juridico">
+                                    <label for="id-Juridico">Jurídico</label>
+
+                                    <p>Área de Interesse</p>
+
+                                    <input type="radio" name="Computação" id="id-Computacao">
+                                    <label for="id-Computacao">Computação</label>
+
+                                    <input type="radio" name="Biologia" id="id-Biologia">
+                                    <label for="id-Biologia">Biologia</label>
+
+                                    <input type="radio" name="Meio Ambiente" id="id-MeioAmbiente">
+                                    <label for="id-MeioAmbiente">Meio Ambiente</label>
+
+                                    <input type="radio" name="Engenharia" id="id-Engenharia">
+                                    <label for="id-Engenharia">Engenharia</label>
+
+                                    <input type="radio" name="História" id="id-Historia">
+                                    <label for="id-Historia">História</label><br><br>
+
+                                    <label for="id-Curriculo">Mini-currículo: </label> <br>
+                                    <textarea name="Currículo" id="id-Curriculo" cols="30" rows="10"></textarea>                                     
+                                </form>
+                            </table>
+                        </fieldset>                            
+                    </div>
+                    <div class="botoes">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </div>
+                </div>
+            </div>
+                <div class="pagamento">
+                    <h1>Métodos de Pagamento</h1>
+                    <p>Campos obrigatórios são seguidos por: <sup>*</sup></p>
+                    <h2>Informações de Contato</h2>
+                        <div class="titulo">
+                            <fieldset>
+                                <form action="#" method="GET">
+                                <legend>Título</legend>
+                                    <input type="radio" name="Ás" id="id-As">
+                                    <label for="id-As">Ás</label>
+                                    <br>
+                                    <input type="radio" name="Rei" id="id-Rei">
+                                    <label for="id-Rei">Rei</label>
+                                    <br>
+                                    <input type="radio" name="Rainha" id="id-Rainha">
+                                    <label for="id-Rainha">Rainha</label>
+                            </fieldset>
+                                <label for="id-Nome">Nome: <sup>*</sup></label>
+                                <input type="text" name="Nome" id="id-Nome">                            
+
+                                <label for="id-Email">Email: <sup>*</sup></label>
+                                <input type="text" name="Email" id="id-Email">                            
+
+                                <label for="id-Senha">Senha: <sup>*</sup></label>
+                                <input type="text" name="Senha" id="id-Senha">
+                                </form>                            
+                        </div>
+                    <h2>Informações de Pagamento</h2>
+                        <div class="cartoes">
+                            <label for="id-TipoCartao">Tipo de Cartão: </label>
+                            <select name="Tipo-Cartão" id="id-TipoCartao">
+                                <option value="Visa">Visa</option>
+                                <option value="Elo">Elo</option>
+                                <option value="Nubank">Nubank</option>
+                            </select>
+                            <br>
+                            <br>
+                            <label for="id-NumeroCartao">Número do cartão: <sup>*</sup></label>
+                            <input type="text" name="Numero do Cartão" id="id-NumeroCartao">
+                            <br>
+                            <label for="id-Expiracao">Data de expiração: <sup>*</sup></label>
+                            <input type="date" name="Data de Expiração" id="id-Expiracao"> 
+                            
+                            <input type="submit" value="Validar o Pagamento">
+                        </div>
+                </div>
+                <div class="manutencao">
+                    <h2>Sistema de Gestão Acadêmica</h2>
+                    <h4>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h4>
+                        <label for="id-Login">Login: </label>
+                        <input type="text" name="Login" id="id-Login">
+                        <br>
+                        <label for="id-Senha">Senha: </label>
+                        <input type="text" name="Senha" id="id-Senha">
+                        <br>                       
+                        <label for="id-Status">Status: </label>
+                        <select name="Status" id="id-Status">
+                            <option value="Inativo">Inativo</option>
+                            <option value="Ativo">Ativo</option>
+                        </select>
+                        <br>                   
+                        <p>Tipo: </p>
+                        
+                        <label for="id-Tecnico">Técnico</label>
+                        <input type="radio" name="Técnico" id="id-Tecnico">
+
+                        <label for="id-Aluno">Aluno</label>
+                        <input type="radio" name="Aluno" id="id-Aluno">
+
+                        <label for="id-Professor">Professor</label>
+                        <input type="radio" name="Professor" id="Professor">
+                        <br>
+
+                        <label for="id-Criacao">Data Criação: </label>
+                        <input type="date" name="Data Criação" id="id-Criacao">
+                        <br>
+
+                        <p>Perfil:</p>
+
+                        <label for="id-Convidado">Convidado</label>
+                        <input type="radio" name="Convidado" id="id-Convidado">
+
+                        <label for="id-Administrador">Administrador</label>
+                        <input type="radio" name="Administrador" id="id-Administrador">
+
+                        <br>
+
+                        
+                        <div class="obs">
+                            <p>Observações: </p>
+                        </div>                        
+
+                        <textarea class="text-area" name="Bloco" id="id-Bloco" cols="20" rows="5"></textarea><br><br>
+                        
+                        <label for="id-Compras">Compras</label>
+                        <input type="checkbox" id="id-Compras">
+                        
+                        <label for="id-Biblioteca">Biblioteca</label>
+                        <input type="checkbox" id="id-Biblioteca">
+                        
+                        <label for="id-Acad">Acadêmico</label>
+                        <input type="checkbox" id="id-Acad"> <br><br>
+                        
+                        <label for="id-Doc">Documentação</label>
+                        <input type="checkbox" id="id-Doc">
+                        
+                        <label for="id-RH">Recursos Humanos</label> 
+                        <input type="checkbox" id="id-RH">
+                </div>
+        </section>
+
+        <!--RODAPÉ-->
+        <footer>
+            <div class="rodape">            
+                <p>2021.Design Responsivo. <small>Criado por: <a href="#">Matheus Bellini</a></small>
+            </div>            
+        </footer>
+        </div>
+    </div>
+    
+</body>
+</html>

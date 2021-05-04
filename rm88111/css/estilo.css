@@ -1,0 +1,132 @@
+#container {
+    margin: 0 auto;
+    width: 800px; 
+    background-image: linear-gradient(to right, #E6F3FF, #c6cfd6);     
+    
+}
+.logo img {
+    width: 500px;
+    height: 300px; 
+    padding-left: 150px;
+}
+/*DADOS PESSOAIS*/
+.dados-pessoais {       
+    /*bordas do formulário */
+    padding: 1em;
+    width: 400px;
+    margin-left: 20px;
+    font-weight: bold;    
+}
+.dados-pessoais input {
+    margin-top: 10px;        
+}
+.dados-pessoais select {
+    margin-top: 10px;
+}
+.dados-pessoais label {
+    padding: 12px 12px;
+}
+/*DADOS PROFISSIONAIS*/
+.dados-profissionais {
+    padding: 1em;
+    width: 550px;
+    margin-left: 20px;     
+
+}
+.dados-profissionais legend{
+    font-weight: bold;
+}
+.dados-profissionais p{
+    font-weight: bold;
+}
+/*BOTÕES*/
+.botoes {
+    margin-left: 40px;
+}
+
+/*PAGAMENTO*/
+.pagamento {
+    width: 500px;
+    border: 2px solid rgb(39, 34, 34);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.titulo {
+    padding-left: 100px;
+    width: 300px;
+    
+}
+.titulo input{
+    margin: 12px 12px;
+}
+.cartoes {
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+.cartoes select{
+    width: 100px;   
+    
+}
+.cartoes input {
+    margin: 12px 12px;
+}
+
+/*MNUTENÇÃO USUÁRIOS*/
+
+.manutencao {
+    margin-left: 40px;
+    margin-top: 50px;
+    background-color: white;
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 50px;
+}
+
+.manutencao h2{
+    background-image: linear-gradient(to right, #E6F3FF, #c6cfd6); 
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+}
+.manutencao h4 {
+    margin-left: 20px;
+}
+.manutencao input {    
+    margin-top: 10px;
+    
+}
+.manutencao p {
+    display: inline;
+    padding-left: 20px;
+    
+}
+.manutencao select {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.manutencao label {
+    padding-left: 20px;
+    
+}
+.manutencao textarea {    
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;        
+
+}
+.obs p {
+    float: left;
+    padding-top: 30px;
+}
+
+/*RODAPÉ*/
+.rodape {
+    margin-left: 40px;
+    padding-bottom: 30px;
+}
