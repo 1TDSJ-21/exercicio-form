@@ -39,14 +39,19 @@
                                 <input type="text" name="txtCidade" id="idTxtCidade">
                             </div>
                             <div>
-                                <label for="idTxtEstado">Estado:</label>
-                                <input type="" name="txtEstado" id="idTxtEstado">
+                                <label for="IdEstado">Estado:</label>
+                                <select name="estado" id="IdEstado">
+                                    <option value="SP">São Paulo</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+
+                                </select>
                             </div>
                         </fieldset>
                         <fieldset>
                             <legend>Dados profissionais</legend>
                             <div>
-                                <label for="">Natureza do Cargo</label>
+                                <p>Natureza do Cargo</p>
+                                <label for=""></label>
                                 <input type="radio" name="txtGerencia" value="Gerencia">Gerência
                                 <input type="radio" name="txtFinanceiro" value="Financeiro">Financeiro
                                 <input type="radio" name="txtRecepcao" value="Recepcao">Recepção
@@ -54,7 +59,8 @@
                                 <input type="radio" name="txtJuridico" value="Juridico">Jurídico
                             </div>
                             <div>
-                                <label for="">Área de interesse</label>
+                                <p>Área de interesse</p>
+                                <label for=""></label>
                                 <input type="checkbox" name="txtComp" value="Computacao">Computação
                                 <input type="checkbox" name="txtComp" value="Computacao">Biologia
                                 <input type="checkbox" name="txtMeioAmb" value="Meio Ambiente">Meio Ambiente
@@ -62,11 +68,12 @@
                                 <input type="checkbox" name="txtHist" value="Historia">História
                             </div>
                             <div>
-                                <label for="">Mini-curriculo</label>
-                                <input type="text">
+                                Mini-Curriculo<textarea name="Mini-Curriculo" id="idMinCur" cols="30" rows="10">
+                                </textarea>
                             </div>
                         </fieldset>
-                            <input type="submit" option value="ENVIAR" option value="LIMPAR">
+                            <input type="submit" name="txtEnviar" name="txtLimpar">
+                        
                     </form>
 
                     <div>
