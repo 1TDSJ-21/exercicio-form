@@ -1,0 +1,26 @@
+.logo{
+    height: 353px;
+}
+
+.menu ul li {
+    display: inline;
+    font-size: 25px;
+    margin-left: 60px;   
+}
+
+a{
+    color: cadetblue;
+}
+
+.box{
+    max-width: 600px;
+
+}
+
+.fifa{
+    max-width: 300px;
+}
+
+.ama{
+    background-color: #daa520;
+}
