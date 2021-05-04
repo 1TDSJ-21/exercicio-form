@@ -4,13 +4,12 @@
     background-image: linear-gradient(to right, #E6F3FF, #c6cfd6);     
     
 }
-
-
 .logo img {
     width: 500px;
     height: 300px; 
     padding-left: 150px;
 }
+/*DADOS PESSOAIS*/
 .dados-pessoais {       
     /*bordas do formulário */
     padding: 1em;
@@ -18,14 +17,13 @@
     margin-left: 20px;
     font-weight: bold;    
 }
-/*DADOS PESSOAIS*/
-.dados-pessoais  input {
+.dados-pessoais input {
     margin-top: 10px;        
 }
-.dados-pessoais  select {
+.dados-pessoais select {
     margin-top: 10px;
 }
-.dados-pessoais  label {
+.dados-pessoais label {
     padding: 12px 12px;
 }
 /*DADOS PROFISSIONAIS*/
@@ -41,6 +39,42 @@
 .dados-profissionais p{
     font-weight: bold;
 }
+/*BOTÕES*/
+.botoes {
+    margin-left: 40px;
+}
+
+/*PAGAMENTO*/
+.pagamento {
+    width: 500px;
+    border: 2px solid rgb(39, 34, 34);
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.titulo {
+    padding-left: 100px;
+    width: 300px;
+    
+}
+.titulo input{
+    margin: 12px 12px;
+}
+.cartoes {
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+.cartoes select{
+    width: 100px;   
+    
+}
+.cartoes input {
+    margin: 12px 12px;
+}
+
+/*MNUTENÇÃO USUÁRIOS*/
+
 
 
 

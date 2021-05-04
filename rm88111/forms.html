@@ -24,7 +24,6 @@
                 </nav>
             </div>
         </header>
-
  
         <!--CONTEÚDO-->
         <section>
@@ -43,7 +42,7 @@
 
                                         <label for="id-Cidade">Cidade: </label>
                                         <input id="id-Cidade" type="text" name="Cidade"><br>
-                                        
+
                                         <label for="id-Estado">Estado: </label>
                                         <select name="Estado" id="id-Estado">                                        
                                             <option value="SP">São Paulo</option>
@@ -58,27 +57,99 @@
                             <table>
                                 <legend>Dados Profissionais</legend>
                                 <form name="Dados-Profissionais" action="#" method="GET">
-                                    <p>Natureza do Cargo</p>                                
-                                    <input type="radio" name="Gerência" id="idGerência">
+                                    <p>Natureza do Cargo</p>
+
+                                    <input type="radio" name="Gerência" id="id-Gerencia">
                                     <label for="id-Gerencia">Gerência</label>
-                                    <input type="radio" name="Financeiro" id="idFinanceiro">
+
+                                    <input type="radio" name="Financeiro" id="id-Financeiro">
                                     <label for="id-Financeiro">Fincanceiro</label>
-                                    <input type="radio" name="Recepção" id="idRecepcao">
-                                    <label for="id-Recepção">Recepção</label>
-                                    <input type="radio" name="adm" id="idAdministrativo">
+
+                                    <input type="radio" name="Recepção" id="id-Recepcao">
+                                    <label for="id-Recepcao">Recepção</label>
+
+                                    <input type="radio" name="Administrativo" id="id-Administrativo">
                                     <label for="id-Administrativo">Administrativo</label>
-                                    <input type="radio" name="juridico" id="idJuridico">
+
+                                    <input type="radio" name="Juridico" id="id-Juridico">
                                     <label for="id-Juridico">Jurídico</label>
+
+                                    <p>Área de Interesse</p>
+
+                                    <input type="radio" name="Computação" id="id-Computacao">
+                                    <label for="id-Computacao">Computação</label>
+
+                                    <input type="radio" name="Biologia" id="id-Biologia">
+                                    <label for="id-Biologia">Biologia</label>
+
+                                    <input type="radio" name="Meio Ambiente" id="id-MeioAmbiente">
+                                    <label for="id-MeioAmbiente">Meio Ambiente</label>
+
+                                    <input type="radio" name="Engenharia" id="id-Engenharia">
+                                    <label for="id-Engenharia">Engenharia</label>
+
+                                    <input type="radio" name="História" id="id-Historia">
+                                    <label for="id-Historia">História</label><br><br>
+
+                                    <label for="id-Curriculo">Mini-currículo: </label> <br>
+                                    <textarea name="Currículo" id="id-Curriculo" cols="30" rows="10"></textarea>                                     
                                 </form>
                             </table>
-                        </fieldset>
+                        </fieldset>                            
                     </div>
-                    <div></div>
+                    <div class="botoes">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </div>
                 </div>
-
-
-
             </div>
+                <div class="pagamento">
+                    <h1>Métodos de Pagamento</h1>
+                    <p>Campos obrigatórios são seguidos por: <sup>*</sup></p>
+                    <h2>Informações de Contato</h2>
+                        <div class="titulo">
+                            <fieldset>
+                                <legend>Título</legend>
+                                    <input type="radio" name="Ás" id="id-As">
+                                    <label for="id-As">Ás</label>
+                                    <br>
+                                    <input type="radio" name="Rei" id="id-Rei">
+                                    <label for="id-Rei">Rei</label>
+                                    <br>
+                                    <input type="radio" name="Rainha" id="id-Rainha">
+                                    <label for="id-Rainha">Rainha</label>
+                            </fieldset>
+                            <label for="id-Nome">Nome: <sup>*</sup></label>
+                            <input type="text" name="Nome" id="id-Nome">                            
+
+                            <label for="id-Email">Email: <sup>*</sup></label>
+                            <input type="text" name="Email" id="id-Email">                            
+
+                            <label for="id-Senha">Senha: <sup>*</sup></label>
+                            <input type="text" name="Senha" id="id-Senha">                            
+                        </div>
+                    <h2>Informações de Pagamento</h2>
+                        <div class="cartoes">
+                            <label for="id-TipoCartao">Tipo de Cartão: </label>
+                            <select name="Tipo-Cartão" id="id-TipoCartao">
+                                <option value="Visa">Visa</option>
+                                <option value="Elo">Elo</option>
+                                <option value="Nubank">Nubank</option>
+                            </select>
+                            <br>
+                            <br>
+                            <label for="id-NumeroCartao">Número do cartão: <sup>*</sup></label>
+                            <input type="text" name="Numero do Cartão" id="id-NumeroCartao">
+                            <br>
+                            <label for="id-Expiracao">Data de expiração: <sup>*</sup></label>
+                            <input type="date" name="Data de Expiração" id="id-Expiracao"> 
+                            
+                            <input type="submit" value="Validar o Pagamento">
+                        </div>
+                </div>
+                <div class="manutencao">
+                    <h3>Sistema de Gestão Acadêmica</h3>
+                </div>
         </section>
 
         <!--RODAPÉ-->
