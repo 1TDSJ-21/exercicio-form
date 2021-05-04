@@ -109,6 +109,7 @@
                     <h2>Informações de Contato</h2>
                         <div class="titulo">
                             <fieldset>
+                                <form action="#" method="GET">
                                 <legend>Título</legend>
                                     <input type="radio" name="Ás" id="id-As">
                                     <label for="id-As">Ás</label>
@@ -119,14 +120,15 @@
                                     <input type="radio" name="Rainha" id="id-Rainha">
                                     <label for="id-Rainha">Rainha</label>
                             </fieldset>
-                            <label for="id-Nome">Nome: <sup>*</sup></label>
-                            <input type="text" name="Nome" id="id-Nome">                            
+                                <label for="id-Nome">Nome: <sup>*</sup></label>
+                                <input type="text" name="Nome" id="id-Nome">                            
 
-                            <label for="id-Email">Email: <sup>*</sup></label>
-                            <input type="text" name="Email" id="id-Email">                            
+                                <label for="id-Email">Email: <sup>*</sup></label>
+                                <input type="text" name="Email" id="id-Email">                            
 
-                            <label for="id-Senha">Senha: <sup>*</sup></label>
-                            <input type="text" name="Senha" id="id-Senha">                            
+                                <label for="id-Senha">Senha: <sup>*</sup></label>
+                                <input type="text" name="Senha" id="id-Senha">
+                                </form>                            
                         </div>
                     <h2>Informações de Pagamento</h2>
                         <div class="cartoes">
@@ -148,34 +150,77 @@
                         </div>
                 </div>
                 <div class="manutencao">
-                    <h3>Sistema de Gestão Acadêmica</h3>
+                    <h2>Sistema de Gestão Acadêmica</h2>
+                    <h4>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h4>
+                        <label for="id-Login">Login: </label>
+                        <input type="text" name="Login" id="id-Login">
+                        <br>
+                        <label for="id-Senha">Senha: </label>
+                        <input type="text" name="Senha" id="id-Senha">
+                        <br>                       
+                        <label for="id-Status">Status: </label>
+                        <select name="Status" id="id-Status">
+                            <option value="Inativo">Inativo</option>
+                            <option value="Ativo">Ativo</option>
+                        </select>
+                        <br>                   
+                        <p>Tipo: </p>
+                        
+                        <label for="id-Tecnico">Técnico</label>
+                        <input type="radio" name="Técnico" id="id-Tecnico">
+
+                        <label for="id-Aluno">Aluno</label>
+                        <input type="radio" name="Aluno" id="id-Aluno">
+
+                        <label for="id-Professor">Professor</label>
+                        <input type="radio" name="Professor" id="Professor">
+                        <br>
+
+                        <label for="id-Criacao">Data Criação: </label>
+                        <input type="date" name="Data Criação" id="id-Criacao">
+                        <br>
+
+                        <p>Perfil:</p>
+
+                        <label for="id-Convidado">Convidado</label>
+                        <input type="radio" name="Convidado" id="id-Convidado">
+
+                        <label for="id-Administrador">Administrador</label>
+                        <input type="radio" name="Administrador" id="id-Administrador">
+
+                        <br>
+
+                        <div class="obs">
+                            <p>Observações</p>
+                        </div>
+
+                        <textarea class="text-area" name="Bloco" id="id-Bloco" cols="20" rows="5"></textarea><br><br>
+
+                        
+                        <label for="id-Compras">Compras</label>
+                        <input type="checkbox" id="id-Compras">
+                        
+                        <label for="id-Biblioteca">Biblioteca</label>
+                        <input type="checkbox" id="id-Biblioteca">
+                        
+                        <label for="id-Acad">Acadêmico</label>
+                        <input type="checkbox" id="id-Acad"> <br><br>
+                        
+                        <label for="id-Doc">Documentação</label>
+                        <input type="checkbox" id="id-Doc">
+                        
+                        <label for="id-RH">Recursos Humanos</label> 
+                        <input type="checkbox" id="id-RH">
                 </div>
         </section>
 
         <!--RODAPÉ-->
         <footer>
-            <div class="rodape">
-                <footer class="rodape">
-                    <p>2021.Design Responsivo. <small>Criado por: <a href="#">Matheus Bellini</a></small>
-
-
-            </div>
+            <div class="rodape">            
+                <p>2021.Design Responsivo. <small>Criado por: <a href="#">Matheus Bellini</a></small>
+            </div>            
         </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </div>
     </div>
     
 </body>
