@@ -1,13 +1,22 @@
 #container {
     margin: 0 auto;
     width: 800px; 
-    background-image: linear-gradient(to right, #E6F3FF, #c6cfd6);     
+    background-image: linear-gradient(to right, #E6F3FF, #96c6eb);     
     
 }
 .logo img {
     width: 500px;
     height: 300px; 
     padding-left: 150px;
+}
+.menu ul li{
+    float: right;
+    display: inline;
+    font-size: 20px;
+    margin-left: 24px;
+    margin-top: 12px;
+    text-transform: none;
+    margin-right: 40px;
 }
 /*DADOS PESSOAIS*/
 .dados-pessoais {       
@@ -81,8 +90,8 @@
     background-color: white;
     width: 600px;
     border-radius: 20px;
-    margin-bottom: 40px;
-    padding-bottom: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .manutencao h2{
@@ -123,6 +132,22 @@
 .obs p {
     float: left;
     padding-top: 30px;
+}
+.abc {
+    padding-top: 10px;
+}
+.abc label input {
+    float: right;
+    margin-right: 140px;
+    margin-left: 20px;  
+}
+.abc p {
+    padding-top: 15px;
+    float: left;
+}
+.cadastrar {
+    margin-left: 60px;
+    margin-bottom: 40px;
 }
 
 /*RODAPÉ*/
