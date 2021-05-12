@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/estilo.css" type="text/css">
+</head>
+
+<body>
+    <div id="container">
+        <header class="cabecalho">
+            <h1>FIAP - Vila Olímpia</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Notícias</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <img class="logo" src="./img/banner-form-1.jpg" alt="FIAP - Vila Olímpia" title="FIAP">
+        </header>
+        <section class="conteudo">
+            <div class="box">
+                <div class="form1">
+                    <form name="dados" action="forms.html" method="GET">
+                        <fieldset>
+                            <legend>Dados pessoais</legend>
+                            <div>
+                               <label for="idTxtNm">Nome:</label> 
+                               <input type="text" name="txtNm" id="idTxtNm">
+                            </div>
+                            <div>
+                               <label for="idTxtDs">Endereço:</label>
+                               <input type="text" name="txtDs" id="idTxtDs">
+                            </div>
+                            <div>
+                               <label for="idTxtCd">Cidade:</label>
+                               <input type="text" name="txtCd" id="idTxtCd">
+                            </div>
+                            <div>
+                               <label for="idSelecEs">Estado:</label>
+                               <select name="selecEs" id="idSelecEs">
+                                   <option value="sp">São Paulo</option>
+                                   <option value="rj">Rio de Janeiro</option>
+                                   <option value="mg">Minas Gerais</option>
+                               </select>
+                            </div>
+                        </fieldset>
+                        <fieldset class="part1">
+                            <legend>Dados profissionais</legend>
+                            <div class="txt">
+                                <p>Natureza do Cargo</p>
+                            </div>
+                            <div class="grupo">
+                                <input type="radio" name="selecCargo" id="idselecGerencia">
+                                <label for="idselecGerencia">Gerência</label>
+                                <input type="radio" name="selecCargo" id="idselecFinanceiro">
+                                <label for="idselecFinanceiro">Financeiro</label>
+                                <input type="radio" name="selecCargo" id="idselecRecepcao">
+                                <label for="idselecRecepcao">Recepção</label>
+                                <input type="radio" name="selecCargo" id="idselecAdm">
+                                <label for="idselecAdm">Administrativo</label>
+                                <input type="radio" name="selecCargo" id="idselecJuri">
+                                <label for="idselecJuri">Jurídico</label>
+                            </div>
+                            <div class="txt2">
+                                <p>Área de interesse</p>
+                            </div>
+                            <div class="grupo2">
+                                <input type="checkbox" name="selecArea" id="idSelecComputacao">
+                                <label for="idSelecComputacao">Computação</label>
+                                <input type="checkbox" name="selecArea" id="idSelecBiologia">
+                                <label for="idSelecBiologia">Biologia</label>
+                                <input type="checkbox" name="selecArea" id="idSelecAmbi">
+                                <label for="idSelecAmbi">Meio Ambiente</label>
+                                <input type="checkbox" name="selecArea" id="idSelecEnge">
+                                <label for="idSelecEnge">Engenharia</label>
+                                <input type="checkbox" name="selecArea" id="idSelecHis">
+                                <label for="idSelecHis">História</label>
+                            </div>
+                            <div class="part2">
+                                <label for="idTxtInfo">Mini-curriculo:</label>
+                                <textarea name="txtInfo" id="idTxtInfo"></textarea>
+                            </div>
+                        </fieldset>
+                        <div class="part3">
+                            <input type="submit" name="buttEnviar" id="idButtEnviar"  value="Enviar">
+                            <input type="reset" name="buttLimpar" id="idButtLimpar" value="Limpar">
+                        </div>
+                    </form>
+                </div>
+                <div class="form2">
+                    <form name="pagamento" action="forms.html" method="GET">
+                        <fieldset>
+                            <h1>Método de Pagamento</h1>
+                            <p>Campos obrigatórios são seguidos por..*</p>
+                            <h1>Informações de Contato</h1>
+                            <fieldset class="part4">
+                                <legend>Título</legend>
+                                <div>
+                                    <input type="radio" name="selecTitulo" id="idselecAs">
+                                    <label for="idselecAs">Ás</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="selecTitulo" id="idselecRei">
+                                    <label for="idselecRei">Rei</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="selecTitulo" id="idselecRainha">
+                                    <label for="idselecRainha">Rainha</label>
+                                </div>
+                            </fieldset>
+                            <div class="part5">
+                                <div>
+                                    <label for="idTxtNm2">Nome:..*</label>
+                                    <input type="text" name="txtNm2" id="idTxtNm2">
+                                </div>
+                                <div>
+                                    <label for="idTxtEmail">Email:..*</label>
+                                    <input type="text" name="txtEmail" id="idTxtEmail">
+                                </div>
+                                <div>
+                                    <label for="idTxtSenha">Senha:..*</label>
+                                    <input type="password" name="txtSenha" id="idTxSenha">
+                                </div>
+                            </div>
+                            <div class="part6">
+                                <h1>Informações de Pagamento</h1>        
+                            </di>
+                            <div class="part7">
+                                <label for="idSelecCard">Tipo de Cartão:</label>
+                                <select class="part8" name="selsecCard" id="idSelecCard">
+                                    <option value="visa">Visa</option>
+                                    <option value="hiper">Hipercard</option>
+                                    <option value="elo">Elo</option>
+                                </select>
+                            </div>
+                            <div class="part9">
+                                <label for="idTxtNm3">Número do Cartão:..*</label>
+                                <input type="text" name="txtNm3" id="idTxtNm3">
+                            </div>
+                            <div class="part9">
+                                <label for="idTxtNm3">Data de Expiração:..*</label>
+                                <input type="date" name="txtNm3" id="idTxtNm3">
+                            </div>
+                            <div class="part10">
+                                <input type="button" name="buttValidar" id="idButtValidar" value="Validar o Pagamento">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="form3">
+                    <form name="dados" action="forms.html" method="GET">
+                        <div class="part11"> 
+                            <h4>SISTEMA DE GESTÃO ACADÊMICA</h4>    
+                        </div> 
+                        <div class="part12">
+                            <h4>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h4>
+                        </div>
+                    <div class="grupo3">
+                        <div class="txt3">
+                            <label for="idTxtLog">Login</label>
+                            <input type="text" name="txtLog" id="idTxtLog">
+                        </div>   
+                        <div class="txt3" >
+                            <label for="idTxtSenha2">Senha</label>
+                            <input type="password" name="txtSenha" id="idTxtSenha2">
+                        </div>
+                        <div class="txt3">
+                            <label  for="idselecStatus">Status</label>
+                            <select name="selecStatus" id="idselecStatus">
+                                <option value="inativo">Inativo</option>
+                                <option value="ativo">Ativo</option>
+                            </select>
+                        </div>
+                        <div class="txt3">
+                            <label for="idSelectTipo">Tipo</label>
+                            <input type="hidden" name="selecTipo" id="idSelecTipo">
+                            <input type="radio" name="selecTipo" id="idSelecTec">
+                            <label for="idSelecTec">Técnico</label>
+                            <input type="radio" name="selecTipo" id="idSelecProf">
+                            <label for="idSelecProf">Professor</label>
+                            <input type="radio" name="selecTipo" id="idSelecAluno">
+                            <label for="idSelecAluno">Aluno</label>
+                        </div>
+                        <div class="txt3">
+                            <label for="idTxtData">Data Criação</label>
+                            <input type="text" name="txtData" id="idTxtData">
+                        </div>
+                        <div class="txt3">
+                            <label for="idSelecPerfil">Perfil</label>
+                            <input type="hidden" name="selecPerfil" id="idSelecPerfil">
+                            <input type="radio" name="selecPerfil" id="idSelecConv">
+                            <label for="idSelecConv">Convidado</label>
+                            <input type="radio" name="selecPerfil" id="idSelecAdm2">
+                            <label for="idSelecAdm2">Administrador</label>
+                        </div>
+                        <div class="txt3">
+                            <label for="idTxtInfo2">Observações</label>
+                            <input type="text" name="txtInfo2" id="idTxtInfo2"></textarea>
+                        </div>
+                        <div class="txt3">
+                            <label for="idSelecModulo">Módulos</label>
+                            <input type="hidden" name="selecModulo" id="idSelecModulo">
+                            <input type="checkbox" name="selecModulo" id="idSelecCompra">
+                            <label for="idSelecCompra">Compras</label>
+                            <input type="checkbox" name="selecModulo" id="idSelecBibli">
+                            <label for="idSelecBibli">Biblioteca</label>
+                            <input type="checkbox" name="selecModulo" id="idSelecAcad">
+                            <label for="idSelecAcad">Acadêmico</label>
+                        </div>
+                        <div class="txt3">
+                            <input type="checkbox" name="selecModulo" id="idSelecDoc">
+                            <label for="idSelecDoc">Documentação</label>
+                            <input type="checkbox" name="selecModulo" id="idSelecRec">
+                            <label for="idSelecRec">Recursos Humanos</label>
+                        </div>
+                        <div class="part13">
+                            <input type="submit" name="buttCad" id="idButtCad"  value="Cadastrar">
+                            <input type="submit" name="buttExcl" id="idButtExcl" value="Excluir">
+                        </div>
+                    </div>   
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="rodape">
+            <p>2021.Design Responsivo.<small>Criado por:<a href="#">Guilherme Tomaz</a></small></p>
+        </footer>
+    </div>    
+</body>
+
+</html>

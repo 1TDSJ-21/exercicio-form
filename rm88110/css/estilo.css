@@ -1,0 +1,226 @@
+.cabecalho h1{
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #e92517;
+}
+
+.menu{
+    float: right;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    margin-top: -4.6%;
+}
+
+.menu li{
+    font-size: 20px;
+    margin-left: 24px;
+    display: inline;
+}
+
+.menu a{
+    color: #e92517;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    height: 730px;
+    width: 1340px;
+    margin-top: -1.7%;
+}
+
+.conteudo{
+    padding: 1%;
+}
+
+.box{
+    margin-top: -1%;
+}
+
+.form1{
+    max-width: 45%;
+    margin-top: 1%;
+}
+
+.part1{
+    margin-top:4%;
+}
+
+.txt{
+    margin-top: -2%;
+}
+
+.grupo{
+    margin-top: -2.5%;
+}
+
+.txt2{
+    margin-top: 5%;
+}
+
+.grupo2{
+    margin-top: -2.5%;
+}
+
+.part2{
+    margin-top: 5%;
+}
+
+#idTxtInfo{
+    height: 80px;
+    width: 65%;
+}
+
+.part3{
+    margin-top: 4%;
+    margin-left: 0.5%;
+}
+
+#idButtLimpar{
+    margin-left: 1%;
+}
+
+.form2{
+    max-width: 40%;
+    margin-top: 3%;
+}
+
+.part4{
+    float: right;
+    margin-right: 20px;
+    width: 280px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.part5{
+    float: right;
+    margin-right: 20px;
+}
+
+#idTxtNm2{
+    margin-top: 5%;
+    width: 300px; 
+}
+
+#idTxtEmail{
+    margin-top: 5%;
+    width: 300px;
+}
+
+#idTxSenha{
+    margin-top: 5%;
+    width: 300px;   
+}
+
+.part6{
+    margin-top: 280px;
+}
+
+.part7{
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+.part8{
+    width: 130px;
+}
+
+.part9{
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+#idTxtNm3{
+    width: 277px;
+}
+
+.part10{
+    margin-top: 8%;
+    margin-left: 36%;   
+}
+
+.form3{
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    max-width: 39.8%;
+    margin-top: 3%;
+}
+
+.part11{
+    background-color: rgba(187, 109, 7, 0.959);
+}
+
+.part12{
+    margin-top: -2%;
+}
+
+.grupo3{
+    margin-top: 6%;
+}
+
+.txt3{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 2%;
+}
+
+#idTxtLog{
+    margin-left: 24%;
+    height: 20px; 
+}
+
+#idTxtSenha2{
+    margin-left: 23%;   
+    height: 20px; 
+}
+
+#idselecStatus{
+    margin-left: 23%;   
+    height: 25px;   
+}
+
+#idSelecTec{
+    margin-left: 26%;
+}
+
+#idTxtData{
+    margin-left: 14%;
+    height: 20px;
+}
+
+#idSelecConv{
+    margin-left: 25%;
+}
+
+#idTxtInfo2{
+    height: 100px;
+    width: 65%;
+    margin-top: -4%;
+    margin-left: 33.5%;
+}
+
+#idSelecModulo{
+    margin-top: 2000px;
+}
+
+#idSelecCompra{
+    margin-left: 20%;
+}
+
+#idSelecDoc{
+    margin-left: 33.3%;
+    margin-top: 3%;
+}
+
+.part13{
+    margin-top: 5%;
+}
+
+#idButtExcl{
+    margin-left: 1%;
+}
+
+.rodape{
+    margin-top: 4%;
+}
