@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+
+<body class="container">
+    <img class="logo" src="../img/banner-form-1.jpg" alt="banner">
+    <div>
+        <header class="cabecalho">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <h2>Cadastro De Candidatos</h2>
+    <section class="conteudo">
+        <div class="box">
+            <form action="tabela.html" method="GET">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div class="fifa">
+                        <div>
+                            <label for="idTxtNome">Nome:</label>
+                            <input type="text" name="txtNm" id="idTxtNm" placeholder="Digite o nome">
+                        </div>
+                        <div>
+                            <label for="idTxtEndereco">Endereco:</label>
+                            <input type="text" name="txtEd" id="idTxtEd" placeholder="Digite o endereco">
+                        </div>
+                        <div>
+                            <label for="idTxtCidade">Cidade:</label>
+                            <input type="text" name="txtCd" id="txtCd" placeholder="Digite a cidade ">
+                        </div>
+                        <div>
+                            <label for="idTxtEstado">Estado:</label>
+                            <select name="Estado" id="txtEstado">
+                                <option value="Sao Paulo">Sao Paulo</option>
+                            </select>
+                        </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="box">
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <div>
+                    <label for="idTxtNaturezaDeCargo">Natureza De Cargo</label>
+                </div>
+                <div>
+                    <input type="Radio" name="txt" id="txtGerencia">
+                    <label for="IdTxtGerencia">Gerencia</label>
+                    <input type="radio" name="txt" id="txtFinanceiro">
+                    <label for="IdTxtFinanceiro">Financeiro</label>
+                    <input type="radio" name="txt" id="txtRecepcao">
+                    <label for="idTxtRecepcao">Recepcao</label>
+                    <input type="radio" name="txt" id="txtAdm">
+                    <label for="idTxtAdm">Administrativo</label>
+                    <input type="radio" name="txt" id="txtJuridico">
+                    <label for="idTxtJuridico">Juridico</label>
+                </div>
+                <div>
+                    <label for="txtAreaDeInteresse">Area De Interesse</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="txtComputador" id="txtComputador">
+                    <label for="idTxtComputador">Computador</label>
+                    <input type="checkbox" name="txtBiologia" id="txtBiologia">
+                    <label for="idTxtCBiologia">Biologia</label>
+                    <input type="checkbox" name="txtMa" id="txtMa">
+                    <label for="idTxtMa">Meio Ambiente</label>
+                    <input type="checkbox" name="txtEngenharia" id="txtEngenharia">
+                    <label for="idTxtEngenharia">Engenharia</label>
+                    <input type="checkbox" name="txtHistoria" id="txtHistoria">
+                    <label for="idTxtHistoria">Historia</label>
+                </div>
+                <label for="MiniCurriculo">Mini-Curriculo</label>
+                <textarea name="Mini-Curriculo" id="TxtMiniCurriculo" cols="50" rows="7"></textarea>
+            </fieldset>
+            <div>
+                <input type="submit" value="ENVIAR"> <input type="reset" value="limpar">
+            </div>
+        </div>
+        <div class="box">
+            <fieldset>
+                <h1>Metodos De Pagamento</h1>
+                <p>Campos obrigatorios sao seguidos por *.</p>
+                <h1>Informacoes de contato</h1>
+                <div>
+                    <fieldset class="borda">
+                        <legend>Titulo</legend>
+                        <div>
+                            <input type="radio" name="txtArr" id="txtAs">
+                            <label for="idTxtAs">As</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="txtArr" id="txtReI">
+                            <label for="idTxtRei">Rei</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="txtArr" id="txtRainha">
+                            <label for="idTxtRainha">Rainha</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="idTxtNome">Nome:*</label>
+                    <input type="text" name="txtNm" id="idTxtNm" placeholder="Digite o nome">
+                </div>
+                <div>
+                    <label for="idTxtEmail">Email:*</label>
+                    <input type="email" name="txtEmail" id="TxtEmail" placeholder="Digite o email">
+                </div>
+                <div>
+                    <label for="idTxtSenha">Senha:*</label>
+                    <input type="password" name="txtSenha" id="txtSenha" placeholder="Digite sua senha">
+                </div>
+                <h1>Informacoes Pagamento</h1>
+                <label for="idTxtTdc">Tipo de Cartao:</label>
+                <select name="TipoDeCartao" id="txtTdc">
+                    <option value="Visa">Visa</option>
+                </select>
+                <div>
+                    <label for="idTxtNdc">Numero do cartao</label>
+                    <input type="text" name="txtNdc" id="txtNdc">
+                </div>
+                <div>
+                    <label for="idTxtDte">Data De Epiracao</label>
+                    <input type="date" name="txtDte" id="txtDte">
+                </div>
+                <input type="submit" value="Validar Pagamento">
+            </fieldset>
+        </div>
+        <div class="box">
+            <fieldset>
+                <div class="zeus">
+                    <div>
+                        <h4 class="ama">SISTEMA DE GESTAO ACADEMICA</h4>
+                        <h4>MANUTENCAO DE USUARIOS DO SISTEMA INTERNO</h4>
+                    </div>
+                    <div>
+                        <label for="idTxtLogin">login:</label>
+                        <input type="text" name="txtLogin" id="txtLogin">
+                    </div>
+                    <div>
+                        <label for="idTxtSenha">Senha:</label>
+                        <input type="password" name="txtSenha" id="txtSenha">
+                    </div>
+                    <label for="Status">Status:</label>
+                    <select name="Status" id="txtStatus">
+                        <option value="inativo">inativo</option>
+                    </select>
+                    <div>
+                        <label for="idTxtTipo">Tipo</label>
+                        <input type="radio" name="txt" id="txtTecnico">
+                        <label for="idTxtTecnico">Tecnico</label>
+                        <input type="radio" name="txt" id="txtProfessor">
+                        <label for="idTxtProfessor">Professor</label>
+                        <input type="radio" name="txt" id="txtAluno">
+                        <label for="idTxtAluno">Aluno</label>
+                    </div>
+                    <div>
+                        <label for="idTxtDtc">Data criacao</label>
+                        <input type="date" name="txtDtc" id="txtDtc">
+                    </div>
+                    <div>
+                        <label for="idtxtPerfil">Perfil</label>
+                        <input type="radio" name="txt" id="txtConvidado">
+                        <label for="idTxtConvidado">Convidado</label>
+                        <input type="radio" name="txt" id="txtAdm">
+                        <label for="idTxtAdm">Administrador</label>
+                    </div>
+                    <div>
+                        <label for="idTxtObs">Observações</label>
+                        <textarea name="Observacoes" id="TxtObservacoes" cols="50" rows="7"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="txtCompras" id="txtCompras">
+                        <label for="idTxtCompras">Compras</label>
+                        <input type="checkbox" name="txtBiblioteca" id="txtBiblioteca">
+                        <label for="idTxtBiblioteca">Biblioteca</label>
+                        <input type="checkbox" name="txtAcademia" id="txtAcademia">
+                        <label for="idTxtAcademia">Academico</label>
+                    </div>
+                    <div>
+                        <label for="idTxtModulo">Modulos</label>
+                        <input type="checkbox" name="txtDoc" id="txtDoc">
+                        <label for="idTxtDoc">Documentacao</label>
+                        <input type="checkbox" name="txtRh" id="txtRh">
+                        <label for="idTxtRh">Recursos Humanos</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Cadastrar">
+                        <input type="submit" value="Excluir">
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+
+    </section>
+
+    <footer class="rodape">
+        <small class="creditos">
+            <p>2021.Desing Responsivo</p>
+            <p>Criado por: <a href="#">Amanda Fernandes</a></p>
+        </small>
+    </footer>
+</body>
+
+</html>
