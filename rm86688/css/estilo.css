@@ -1,0 +1,38 @@
+.logo{
+    height: 163px;
+}
+
+.menu ul li {
+    display: inline;
+    font-size: 25px;
+    margin-left: 60px;   
+}
+
+a{
+    color: rgb(163, 16, 16);
+}
+
+.box{
+    max-width: 600px;
+
+}
+
+.fifa{
+    max-width: 300px;
+}
+
+.ama{
+    background-color: #da2020;
+}
+
+.container { 
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.zeus{
+    margin-left: auto;
+    margin-right: auto
+
+}
